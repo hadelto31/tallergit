@@ -3,6 +3,7 @@ import React from "react";
 function Personaje(props)
 {
 
+    
     return(
         <di>
             <p> Nombre : { props.name}</p>
