@@ -4,13 +4,14 @@ import Personaje from "./Personaje";
 import './App.css';
 
 
+
 function Personajes(props)
 {
     const [pagina, setPagina] = useState(1);
     const [buscar, setBuscar] = useState(false);
     const [personajes, setPersonajes] = useState([]);
     
-    
+
 
     useEffect(() => {
         //Petición
