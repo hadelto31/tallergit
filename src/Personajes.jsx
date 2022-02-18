@@ -12,6 +12,7 @@ function Personajes(props)
     const [personajes, setPersonajes] = useState([]);
     
 
+    
 
     useEffect(() => {
         //Petición
